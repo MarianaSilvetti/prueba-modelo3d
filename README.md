@@ -1,4 +1,4 @@
-# prueba-modelo3d
+# Prueba-Modelo3D
 Prueba de implementación de visualización 3D y realidad aumentada (AR) en una página web utilizando model-viewer.
 **Visualización 3D y Realidad Aumentada en Web:**
 Este proyecto consiste en una prueba de implementación de modelos 3D y realidad aumentada (AR) en una página web, utilizando el componente model-viewer.
