@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba AR - Modelos3D</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- model-viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Modelos prueba</h1>
+    <p>Imagenes de modelos en 3d de prueba</p>
+
+    <model-viewer 
+      id="visor"
+      src="/modelos/botella.glb"
+      alt="Modelo 3D"
+      auto-rotate
+      camera-controls
+      ar
+      ar-modes="scene-viewer webxr quick-look"
+      shadow-intensity="1"
+      exposure="1"
+    >
+    </model-viewer>
+
+    <p>Podés girar el modelo o verlo en tu espacio usando realidad aumentada desde tu celular.</p>
+
+<button class="btn" onclick="cambiarModelo()">Cambiar modelo</button>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
